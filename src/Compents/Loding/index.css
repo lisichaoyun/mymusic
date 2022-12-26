@@ -1,0 +1,6 @@
+.ant-spin-dot-spin{
+    top:50%;
+}
+.ant-spin.ant-spin-show-text .ant-spin-text{
+    transform: translate(0,50vh);
+}

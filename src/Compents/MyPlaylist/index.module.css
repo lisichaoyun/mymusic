@@ -1,0 +1,48 @@
+.playerlist {
+  width: 80%;
+  min-height: 16rem;
+  max-height: 80%;
+  border: red 0.125rem solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.header_title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
+}
+.li {
+  color: black;
+  font-size: small;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 7.75rem;
+  height: 7.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  cursor: pointer;
+}
+.text {
+  background-color: rgba(30, 34, 63, 0.75);
+  color: antiquewhite;
+  max-height: 50%;
+  font-size: 1px;
+}
+.songname {
+  font-size: 16px;
+  color: gray;
+  cursor: pointer;
+  list-style-type:none;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.songname:hover {
+  text-decoration: underline;
+}
